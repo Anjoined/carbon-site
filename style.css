@@ -560,3 +560,29 @@ a:hover {
         text-align: center;
     }
 }
+
+/* ========== Article Navigation ========== */
+.article-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 0.9rem;
+    gap: 16px;
+}
+
+.article-nav a {
+    color: var(--accent);
+}
+
+.article-nav a:hover {
+    text-decoration: underline;
+}
+
+/* ========== Articles List Description ========== */
+.articles-desc {
+    color: var(--text-muted);
+    margin-bottom: 32px;
+}
+
