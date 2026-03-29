@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Carbon Footprint Calculator — Carbon Simple</title>
+    <meta name="description" content="Calculate your personal carbon footprint in 2 minutes. Free, no signup required. Based on IPCC emission factors.">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="/" class="logo">Carbon Simple</a>
+            <div class="nav-links">
+                <a href="/calculator/">Calculator</a>
+                <a href="/articles/">Articles</a>
+                <a href="/about/">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="calculator-page">
+        <h1>Personal Carbon Footprint Calculator</h1>
+        <p class="subtitle">Estimate your annual CO₂ emissions in 2 minutes. No signup required.</p>
+
+        <form id="calc-form">
+            <!-- Transport -->
+            <div class="calc-section">
+                <h2>🚗 Transport</h2>
+                <div class="form-group">
+                    <label for="car-km">Weekly car driving (km)</label>
+                    <input type="number" id="car-km" value="100" min="0">
+                    <p class="hint">Average: ~150 km/week in the US, ~50 km/week in Europe</p>
+                </div>
+                <div class="form-group">
+                    <label for="car-type">Car fuel type</label>
+                    <select id="car-type">
+                        <option value="gasoline">Gasoline / Petrol</option>
+                        <option value="diesel">Diesel</option>
+                        <option value="hybrid">Hybrid</option>
+                        <option value="electric">Electric</option>
+                        <option value="none">I don't drive</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="flights">Return flights per year</label>
+                    <input type="number" id="flights" value="2" min="0">
+                    <p class="hint">A single long-haul return flight ≈ 1.6 tonnes CO₂</p>
+                </div>
+            </div>
+
+            <!-- Food -->
+            <div class="calc-section">
+                <h2>🍽️ Food</h2>
+                <div class="form-group">
+                    <label for="diet">Your diet type</label>
+                    <select id="diet">
+                        <option value="high-meat">High meat (daily meat)</option>
+                        <option value="medium-meat" selected>Medium meat (meat few times/week)</option>
+                        <option value="low-meat">Low meat (meat once/week)</option>
+                        <option value="vegetarian">Vegetarian</option>
+                        <option value="vegan">Vegan</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="beef-freq">Beef/lamb meals per week</label>
+                    <input type="number" id="beef-freq" value="3" min="0" max="21">
+                </div>
+            </div>
+
+            <!-- Housing -->
+            <div class="calc-section">
+                <h2>🏠 Housing</h2>
+                <div class="form-group">
+                    <label for="house-size">Home size</label>
+                    <select id="house-size">
+                        <option value="small">Small (studio / 1 bedroom)</option>
+                        <option value="medium" selected>Medium (2-3 bedrooms)</option>
+                        <option value="large">Large (4+ bedrooms)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="energy-source">Primary heating energy</label>
+                    <select id="energy-source">
+                        <option value="natural-gas">Natural gas</option>
+                        <option value="electricity">Electricity (grid mix)</option>
+                        <option value="oil">Heating oil</option>
+                        <option value="renewable">Renewable energy</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="household-size">People in household</label>
+                    <input type="number" id="household-size" value="2" min="1" max="10">
+                </div>
+            </div>
+
+            <!-- Consumption -->
+            <div class="calc-section">
+                <h2>🛒 Consumption</h2>
+                <div class="form-group">
+                    <label for="clothes">New clothing items per year</label>
+                    <input type="number" id="clothes" value="30" min="0">
+                    <p class="hint">Global average: ~27 items/year. Fast fashion shoppers: 60+</p>
+                </div>
+                <div class="form-group">
+                    <label for="electronics">New electronic devices per year</label>
+                    <input type="number" id="electronics" value="2" min="0">
+                </div>
+            </div>
+
+            <button type="submit" class="calc-btn">Calculate My Footprint</button>
+        </form>
+
+        <!-- Results -->
+        <div class="results" id="results">
+            <div class="results-box">
+                <div class="results-number" id="total-number">—</div>
+                <div class="results-unit">tonnes CO₂e per year</div>
+                <div class="results-comparison" id="comparison-text"></div>
+                <div class="results-breakdown">
+                    <h3>Breakdown by category</h3>
+                    <div class="breakdown-item">
+                        <span>🚗 Transport</span>
+                        <span id="breakdown-transport">—</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>🍽️ Food</span>
+                        <span id="breakdown-food">—</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>🏠 Housing</span>
+                        <span id="breakdown-housing">—</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>🛒 Consumption</span>
+                        <span id="breakdown-consumption">—</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Carbon Simple. Emission factors from IPCC AR6 & DEFRA.</p>
+            <div class="footer-links">
+                <a href="/about/">About</a>
+                <a href="/about/#sources">Data Sources</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/calculator.js"></script>
+</body>
+</html>
