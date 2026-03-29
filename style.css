@@ -561,6 +561,42 @@ a:hover {
     }
 }
 
+/* ========== Social Sharing ========== */
+.social-share {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+    padding: 16px;
+    background: var(--accent-light);
+    border-radius: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-share button {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+.social-share button:hover {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: white;
+}
+
+.social-share button svg {
+    width: 16px;
+    height: 16px;
+}
+
 /* ========== Article Navigation ========== */
 .article-nav {
     display: flex;

@@ -5,10 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Free Carbon Footprint Calculator — Carbon Simple</title>
     <meta name="description" content="Calculate your personal carbon footprint in 2 minutes. Free, no signup required. Based on IPCC emission factors.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Carbon Simple">
+    <meta name="keywords" content="carbon footprint calculator, calculate CO₂ emissions, personal carbon footprint, environmental calculator">
+
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Mono&display=swap" rel="stylesheet">
+
+    <!-- Performance optimization -->
+    <link rel="preload" href="/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/style.css"></noscript>
+    <!-- Schema.org JSON-LD for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Personal Carbon Footprint Calculator",
+        "description": "Calculate your personal carbon footprint in 2 minutes. Free, no signup required. Based on IPCC emission factors.",
+        "url": "https://carbon-simple.pages.dev/calculator/",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Web",
+        "author": {
+            "@type": "Organization",
+            "name": "Carbon Simple"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Carbon Simple",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://carbon-simple.pages.dev/favicon.ico"
+            }
+        },
+        "featureList": [
+            "Calculate annual carbon footprint",
+            "Breakdown by transport, food, housing, and consumption",
+            "Estimate CO₂ emissions from daily activities",
+            "Compare with average emissions",
+            "Free, no signup required"
+        ],
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://carbon-simple.pages.dev/calculator/"
+        },
+        "keywords": "carbon footprint calculator, personal carbon footprint, calculate CO₂ emissions, environmental tool, sustainable living"
+    }
+    </script>
 </head>
 <body>
     <nav class="nav">
@@ -21,6 +66,9 @@
             </div>
         </div>
     </nav>
+
+    <script src="/language.js"></script>
+    <script src="/analytics.js"></script>
 
     <main class="calculator-page">
         <h1>Personal Carbon Footprint Calculator</h1>
