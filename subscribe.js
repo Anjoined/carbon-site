@@ -9,7 +9,7 @@
     'use strict';
 
     // Replace with your deployed Worker URL
-    var WORKER_URL = 'YOUR_WORKER_URL';
+    var WORKER_URL = 'https://carbon-simple-subscribe.chenyuepenging.workers.dev';
 
     function init() {
         var forms = document.querySelectorAll('.subscribe-form');

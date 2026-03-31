@@ -8,7 +8,7 @@ compatibility_date = "2024-12-01"
 # 3. Replace YOUR_KV_NAMESPACE_ID below
 
 kv_namespaces = [
-    { binding = "SUBSCRIBERS", id = "YOUR_KV_NAMESPACE_ID" }
+    { binding = "SUBSCRIBERS", id = "22e6e420fd064f7b8f9670e7c6ac5380" }
 ]
 
 # Optional: set custom domain
