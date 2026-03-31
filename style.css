@@ -622,3 +622,82 @@ a:hover {
     margin-bottom: 32px;
 }
 
+/* ========== Subscribe Section ========== */
+.subscribe {
+    background: var(--accent-light);
+    padding: 48px 0;
+    text-align: center;
+}
+
+.subscribe h2 {
+    margin-bottom: 8px;
+}
+
+.subscribe > .container > p {
+    color: var(--text-muted);
+    margin-bottom: 24px;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 12px;
+    max-width: 440px;
+    margin: 0 auto 12px;
+}
+
+.subscribe-form input[type="email"] {
+    flex: 1;
+    padding: 10px 16px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    background: var(--surface);
+}
+
+.subscribe-form input[type="email"]:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.subscribe-form button {
+    padding: 10px 24px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.subscribe-form button:hover {
+    opacity: 0.9;
+}
+
+.subscribe-form button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.subscribe-note {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.subscribe-msg {
+    display: none;
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+.subscribe-msg-success {
+    color: var(--accent);
+}
+
+.subscribe-msg-error {
+    color: #c0392b;
+}
+
