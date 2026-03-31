@@ -161,6 +161,21 @@
         <priority>0.5</priority>
     </url>
     <url>
+        <loc>https://carbon-simple.pages.dev/articles/carbon-footprint-of-coffee/</loc>
+        <lastmod>2026-03-31</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/transatlantic-flight-carbon-footprint/</loc>
+        <lastmod>2026-03-31</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/carbon-footprint-of-bitcoin/</loc>
+        <lastmod>2026-03-31</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://carbon-simple.pages.dev/privacy/</loc>
         <lastmod>2026-03-31</lastmod>
         <priority>0.3</priority>
