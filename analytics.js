@@ -25,26 +25,6 @@ function initializeGoogleAnalytics() {
     console.log('Google Analytics initialized');
 }
 
-// Hotjar configuration - 暂时禁用，因为需要额外的配置
-const HOTJAR_ENABLED = false;
-const HOTJAR_ID = 1234567;
-const HOTJAR_VERSION = 6;
-
-// Function to initialize Hotjar - 简化版本，默认禁用
-function initializeHotjar() {
-    if (!HOTJAR_ENABLED || !HOTJAR_ID || HOTJAR_ID === 1234567) {
-        console.warn('Hotjar is disabled or not properly configured.');
-        return;
-    }
-
-    const script = document.createElement('script');
-    script.async = true;
-    script.src = `https://static.hotjar.com/c/hotjar-${HOTJAR_ID}.js?sv=${HOTJAR_VERSION}`;
-    document.body.appendChild(script);
-
-    console.log('Hotjar initialized');
-}
-
 // Track page views
 function trackPageView(url = window.location.pathname) {
     // Google Analytics
@@ -54,7 +34,6 @@ function trackPageView(url = window.location.pathname) {
         });
     }
 
-    // Hotjar automatically tracks page views
 }
 
 // Track events
@@ -96,7 +75,6 @@ function trackArticleView(title, category, readTime) {
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize analytics providers
     initializeGoogleAnalytics();
-    initializeHotjar();
 
     // Track initial page view
     trackPageView();
