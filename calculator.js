@@ -98,12 +98,15 @@ function calculate() {
     // Comparison text
     const worldAvg = 4.5;
     const comparison = document.getElementById('comparison-text');
+    const i18n = window.__i18n || {};
     if (total < worldAvg) {
         const pct = Math.round((1 - total / worldAvg) * 100);
-        comparison.textContent = `${pct}% below the global average of ${worldAvg} tonnes`;
+        var tpl = i18n.belowAvg || '%pct%%% below the global average of %avg% tonnes';
+        comparison.textContent = tpl.replace('%pct%', pct).replace('%avg%', worldAvg);
     } else {
         const pct = Math.round((total / worldAvg - 1) * 100);
-        comparison.textContent = `${pct}% above the global average of ${worldAvg} tonnes`;
+        var tpl = i18n.aboveAvg || '%pct%%% above the global average of %avg% tonnes';
+        comparison.textContent = tpl.replace('%pct%', pct).replace('%avg%', worldAvg);
     }
 
     // Show results

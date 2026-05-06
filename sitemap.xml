@@ -1,228 +1,679 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://carbon-simple.pages.dev/</loc>
-        <lastmod>2026-03-29</lastmod>
+        <lastmod>2026-05-07</lastmod>
         <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/" />
     </url>
     <url>
         <loc>https://carbon-simple.pages.dev/calculator/</loc>
-        <lastmod>2026-03-29</lastmod>
+        <lastmod>2026-05-07</lastmod>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/calculator/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/calculator/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/calculator/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/calculator/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/calculator/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/calculator/" />
     </url>
     <url>
         <loc>https://carbon-simple.pages.dev/articles/</loc>
-        <lastmod>2026-03-31</lastmod>
+        <lastmod>2026-05-07</lastmod>
         <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/" />
     </url>
     <url>
-        <loc>https://carbon-simple.pages.dev/articles/ev-vs-gas-car/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/vegetarian-vs-vegan/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/streaming-video-carbon-footprint/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/carbon-footprint-by-country/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/average-carbon-footprint-us/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/home-heating-carbon-comparison/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/daily-commute-carbon-footprint/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/most-effective-actions/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/beef-vs-chicken/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/working-from-home/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
+        <loc>https://carbon-simple.pages.dev/zh/articles/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/" />
     </url>
     <url>
         <loc>https://carbon-simple.pages.dev/faq/</loc>
-        <lastmod>2026-03-29</lastmod>
+        <lastmod>2026-05-07</lastmod>
         <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/faq/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/faq/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/faq/" />
     </url>
     <url>
-        <loc>https://carbon-simple.pages.dev/articles/what-is-carbon-footprint/</loc>
-        <lastmod>2026-03-29</lastmod>
+        <loc>https://carbon-simple.pages.dev/zh/faq/</loc>
+        <lastmod>2026-05-07</lastmod>
         <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/how-to-calculate-carbon-footprint/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/global-carbon-footprint/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/personal-vs-corporate-carbon-footprint/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/carbon-neutral-vs-net-zero/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/transport-carbon-footprint/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/food-carbon-footprint/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/housing-carbon-footprint/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/consumption-carbon-footprint/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/reduce-car-emissions/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/reduce-flight-emissions/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/low-carbon-diet/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/save-energy-at-home/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/reduce-fashion-footprint/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/reduce-waste-recycle/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/sustainable-travel/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/greener-workplace/</loc>
-        <lastmod>2026-03-29</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/knowledge-base/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/knowledge-base/emission-factors/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/knowledge-base/glossary/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/knowledge-base/carbon-myths/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/faq/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/faq/" />
     </url>
     <url>
         <loc>https://carbon-simple.pages.dev/about/</loc>
-        <lastmod>2026-03-29</lastmod>
+        <lastmod>2026-05-07</lastmod>
         <priority>0.5</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/about/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/about/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/about/" />
     </url>
     <url>
-        <loc>https://carbon-simple.pages.dev/articles/carbon-footprint-of-coffee/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/transatlantic-flight-carbon-footprint/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/articles/carbon-footprint-of-bitcoin/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/privacy/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.3</priority>
-    </url>
-    <url>
-        <loc>https://carbon-simple.pages.dev/terms/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.3</priority>
+        <loc>https://carbon-simple.pages.dev/zh/about/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.5</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/about/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/about/" />
     </url>
     <url>
         <loc>https://carbon-simple.pages.dev/data/</loc>
-        <lastmod>2026-03-31</lastmod>
+        <lastmod>2026-05-07</lastmod>
         <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/data/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/data/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/data/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/data/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/data/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/data/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/knowledge-base/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/knowledge-base/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/knowledge-base/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/knowledge-base/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/knowledge-base/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/knowledge-base/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/knowledge-base/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/knowledge-base/emission-factors/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/knowledge-base/emission-factors/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/knowledge-base/emission-factors/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/knowledge-base/emission-factors/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/knowledge-base/emission-factors/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/knowledge-base/emission-factors/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/knowledge-base/emission-factors/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/knowledge-base/glossary/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/knowledge-base/glossary/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/knowledge-base/glossary/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/knowledge-base/glossary/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/knowledge-base/glossary/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/knowledge-base/glossary/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/knowledge-base/glossary/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/knowledge-base/carbon-myths/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/knowledge-base/carbon-myths/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/knowledge-base/carbon-myths/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/knowledge-base/carbon-myths/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/knowledge-base/carbon-myths/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/knowledge-base/carbon-myths/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/knowledge-base/carbon-myths/" />
     </url>
     <url>
         <loc>https://carbon-simple.pages.dev/blog/</loc>
-        <lastmod>2026-03-31</lastmod>
+        <lastmod>2026-05-07</lastmod>
         <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/blog/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/blog/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/blog/" />
     </url>
     <url>
-        <loc>https://carbon-simple.pages.dev/blog/calculator-updates/</loc>
-        <lastmod>2026-03-31</lastmod>
-        <priority>0.5</priority>
+        <loc>https://carbon-simple.pages.dev/zh/blog/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/blog/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/blog/" />
     </url>
     <url>
         <loc>https://carbon-simple.pages.dev/blog/why-carbon-simple/</loc>
-        <lastmod>2026-03-31</lastmod>
+        <lastmod>2026-05-07</lastmod>
         <priority>0.5</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/blog/why-carbon-simple/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/blog/why-carbon-simple/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/blog/why-carbon-simple/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/blog/why-carbon-simple/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.5</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/blog/why-carbon-simple/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/blog/why-carbon-simple/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/blog/calculator-updates/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.5</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/blog/calculator-updates/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/blog/calculator-updates/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/blog/calculator-updates/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/blog/calculator-updates/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.5</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/blog/calculator-updates/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/blog/calculator-updates/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/privacy/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/privacy/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/privacy/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/privacy/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/privacy/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/privacy/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/privacy/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/terms/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/terms/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/terms/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/terms/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/terms/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/terms/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/terms/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/what-is-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/what-is-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/what-is-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/what-is-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/what-is-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/what-is-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/what-is-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/how-to-calculate-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/how-to-calculate-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/how-to-calculate-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/how-to-calculate-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/how-to-calculate-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/how-to-calculate-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/how-to-calculate-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/global-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/global-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/global-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/global-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/global-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/global-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/global-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/average-carbon-footprint-us/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/average-carbon-footprint-us/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/average-carbon-footprint-us/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/average-carbon-footprint-us/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/average-carbon-footprint-us/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/average-carbon-footprint-us/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/average-carbon-footprint-us/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/carbon-footprint-by-country/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/carbon-footprint-by-country/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/carbon-footprint-by-country/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/carbon-footprint-by-country/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/carbon-footprint-by-country/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/carbon-footprint-by-country/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/carbon-footprint-by-country/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/personal-vs-corporate-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/personal-vs-corporate-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/personal-vs-corporate-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/personal-vs-corporate-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/personal-vs-corporate-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/personal-vs-corporate-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/personal-vs-corporate-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/carbon-neutral-vs-net-zero/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/carbon-neutral-vs-net-zero/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/carbon-neutral-vs-net-zero/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/carbon-neutral-vs-net-zero/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/carbon-neutral-vs-net-zero/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/carbon-neutral-vs-net-zero/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/carbon-neutral-vs-net-zero/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/most-effective-actions/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/most-effective-actions/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/most-effective-actions/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/most-effective-actions/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/most-effective-actions/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/most-effective-actions/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/most-effective-actions/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/reduce-car-emissions/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/reduce-car-emissions/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/reduce-car-emissions/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/reduce-car-emissions/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/reduce-car-emissions/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/reduce-car-emissions/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/reduce-car-emissions/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/reduce-flight-emissions/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/reduce-flight-emissions/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/reduce-flight-emissions/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/reduce-flight-emissions/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/reduce-flight-emissions/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/reduce-flight-emissions/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/reduce-flight-emissions/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/low-carbon-diet/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/low-carbon-diet/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/low-carbon-diet/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/low-carbon-diet/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/low-carbon-diet/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/low-carbon-diet/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/low-carbon-diet/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/save-energy-at-home/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/save-energy-at-home/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/save-energy-at-home/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/save-energy-at-home/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/save-energy-at-home/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/save-energy-at-home/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/save-energy-at-home/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/reduce-fashion-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/reduce-fashion-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/reduce-fashion-footprint/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/reduce-fashion-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/reduce-fashion-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/reduce-fashion-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/reduce-fashion-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/reduce-waste-recycle/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/reduce-waste-recycle/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/reduce-waste-recycle/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/reduce-waste-recycle/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/reduce-waste-recycle/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/reduce-waste-recycle/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/reduce-waste-recycle/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/sustainable-travel/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/sustainable-travel/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/sustainable-travel/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/sustainable-travel/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/sustainable-travel/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/sustainable-travel/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/sustainable-travel/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/greener-workplace/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/greener-workplace/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/greener-workplace/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/greener-workplace/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/greener-workplace/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/greener-workplace/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/greener-workplace/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/ev-vs-gas-car/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/ev-vs-gas-car/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/ev-vs-gas-car/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/ev-vs-gas-car/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/ev-vs-gas-car/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/ev-vs-gas-car/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/ev-vs-gas-car/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/beef-vs-chicken/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/beef-vs-chicken/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/beef-vs-chicken/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/beef-vs-chicken/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/beef-vs-chicken/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/beef-vs-chicken/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/beef-vs-chicken/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/working-from-home/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/working-from-home/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/working-from-home/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/working-from-home/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/working-from-home/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/working-from-home/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/working-from-home/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/vegetarian-vs-vegan/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/vegetarian-vs-vegan/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/vegetarian-vs-vegan/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/vegetarian-vs-vegan/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/vegetarian-vs-vegan/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/vegetarian-vs-vegan/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/vegetarian-vs-vegan/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/streaming-video-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/streaming-video-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/streaming-video-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/streaming-video-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/streaming-video-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/streaming-video-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/streaming-video-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/carbon-footprint-of-coffee/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/carbon-footprint-of-coffee/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/carbon-footprint-of-coffee/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/carbon-footprint-of-coffee/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/carbon-footprint-of-coffee/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/carbon-footprint-of-coffee/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/carbon-footprint-of-coffee/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/transatlantic-flight-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/transatlantic-flight-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/transatlantic-flight-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/transatlantic-flight-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/transatlantic-flight-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/transatlantic-flight-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/transatlantic-flight-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/carbon-footprint-of-bitcoin/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/carbon-footprint-of-bitcoin/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/carbon-footprint-of-bitcoin/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/carbon-footprint-of-bitcoin/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/carbon-footprint-of-bitcoin/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/carbon-footprint-of-bitcoin/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/carbon-footprint-of-bitcoin/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/transport-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/transport-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/transport-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/transport-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/transport-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/transport-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/transport-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/food-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/food-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/food-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/food-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/food-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/food-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/food-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/housing-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/housing-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/housing-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/housing-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/housing-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/housing-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/housing-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/consumption-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/consumption-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/consumption-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/consumption-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/consumption-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/consumption-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/consumption-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/home-heating-carbon-comparison/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/home-heating-carbon-comparison/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/home-heating-carbon-comparison/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/home-heating-carbon-comparison/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/home-heating-carbon-comparison/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/home-heating-carbon-comparison/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/home-heating-carbon-comparison/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/articles/daily-commute-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/daily-commute-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/daily-commute-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/daily-commute-carbon-footprint/" />
+    </url>
+    <url>
+        <loc>https://carbon-simple.pages.dev/zh/articles/daily-commute-carbon-footprint/</loc>
+        <lastmod>2026-05-07</lastmod>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/daily-commute-carbon-footprint/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/daily-commute-carbon-footprint/" />
     </url>
 </urlset>

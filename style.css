@@ -537,6 +537,34 @@ a:hover {
     color: var(--text-muted);
 }
 
+/* ========== Language Switcher ========== */
+.lang-switch {
+    font-size: 0.85rem;
+    padding: 4px 12px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text-muted);
+    margin-left: 16px;
+    white-space: nowrap;
+}
+
+.lang-switch:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+}
+
+/* ========== Chinese Font Support ========== */
+[lang="zh"] body {
+    font-family: 'Noto Sans SC', 'DM Sans', -apple-system, 'Microsoft YaHei', sans-serif;
+}
+
+[lang="zh"] .hero-tag,
+[lang="zh"] .article-meta,
+[lang="zh"] .article-category {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+}
+
 /* ========== Responsive ========== */
 @media (max-width: 640px) {
     .nav-inner {

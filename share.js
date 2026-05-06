@@ -18,14 +18,14 @@ function shareToLinkedIn(title, url) {
 }
 
 function copyShareLink(url) {
+    var i18n = window.__i18n || {};
     navigator.clipboard.writeText(url)
         .then(() => {
-            // Show feedback to user
-            alert('Link copied to clipboard!');
+            alert(i18n.linkCopied || 'Link copied to clipboard!');
         })
         .catch(err => {
             console.error('Failed to copy link:', err);
-            alert('Failed to copy link. Please try manually.');
+            alert(i18n.linkCopyFailed || 'Failed to copy link. Please try manually.');
         });
 }
 

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日常通勤碳足迹 — 汽车、公交、自行车、步行 — Carbon Simple</title>
+    <meta name="description" content="您的日常通勤产生多少CO₂？对比汽车、公交、火车、电动自行车和步行的每公里排放，以及典型16英里往返的年度总计。">
+    <meta name="keywords" content="通勤碳足迹, 汽车vs公交排放, 骑行碳足迹, 日常通勤CO2, 通勤排放计算器">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Mono&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/daily-commute-carbon-footprint/" />
+    <link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/daily-commute-carbon-footprint/" />
+    <link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/daily-commute-carbon-footprint/" />
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "日常通勤碳足迹 — 汽车、公交、自行车、步行",
+        "description": "您的日常通勤产生多少CO₂？对比汽车、公交、火车、电动自行车和步行的每公里排放，以及典型16英里往返的年度总计。",
+        "author": {
+            "@type": "Organization",
+            "name": "Carbon Simple"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Carbon Simple",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://carbon-simple.pages.dev/favicon.ico"
+            }
+        },
+        "datePublished": "2026-03-31",
+        "dateModified": "2026-03-31",
+        "wordCount": 1500,
+        "timeRequired": "PT8M",
+        "articleSection": "交通",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://carbon-simple.pages.dev/zh/articles/daily-commute-carbon-footprint/"
+        },
+        "keywords": "通勤碳足迹, 汽车vs公交排放, 骑行碳足迹, 日常通勤CO2, 通勤排放计算器"
+    }
+    </script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="/zh/" class="logo">Carbon Simple</a>
+            <div class="nav-links">
+                <a href="/zh/calculator/">计算器</a>
+                <a href="/zh/articles/">文章</a>
+                <a href="/zh/about/">关于</a>
+            </div>
+        </div>
+    </nav>
+
+    <script src="/language.js"></script>
+    <script src="/analytics.js"></script>
+
+    <main class="article-page">
+        <p class="article-meta">交通 · 更新于2026年3月 · 8分钟阅读</p>
+        <div class="social-share">
+            <button onclick="shareToTwitter('日常通勤碳足迹', 'https://carbon-simple.pages.dev/zh/articles/daily-commute-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                </svg>
+                分享到Twitter
+            </button>
+            <button onclick="shareToFacebook('https://carbon-simple.pages.dev/zh/articles/daily-commute-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                分享到Facebook
+            </button>
+            <button onclick="shareToLinkedIn('日常通勤碳足迹', 'https://carbon-simple.pages.dev/zh/articles/daily-commute-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                分享到LinkedIn
+            </button>
+            <button onclick="copyShareLink('https://carbon-simple.pages.dev/zh/articles/daily-commute-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 21H8V7h11v14zM17 10h-7v7h7v-7zM5 13h7v7H5v-7zM5 21h7v-7H5v7zM19 3H8v7h11V3z"/>
+                </svg>
+                复制链接
+            </button>
+        </div>
+        <h1>日常通勤碳足迹 — 汽车、公交、自行车、步行</h1>
+
+        <p><strong>快速回答：</strong>美国人平均16英里（26公里）单程通勤，如果独自驾车，每年约产生<strong>2.6吨CO₂</strong>。改乘公交可减少到约1.2吨，通勤火车0.6吨，骑自行车基本为零。您的通勤可能是个人碳足迹中最大的一块——但也是最有可能改变的一块。</p>
+
+        <h2>您的通勤产生多少CO₂？</h2>
+
+        <p>美国平均通勤为单程16英里（25.7公里），每年260个工作日。年度通勤距离约13,300公里。下表显示了每种主要交通方式的每乘客公里CO₂排放，以及估计的年度排放和大致年度费用。</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>交通方式</th>
+                    <th>每乘客公里CO₂（克）</th>
+                    <th>年度CO₂（16英里通勤）</th>
+                    <th>估计年度费用（美元）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>独自驾车（汽油）</td><td>170</td><td>2.55吨</td><td>$3,200–$4,800</td></tr>
+                <tr><td>汽车 — 2人</td><td>85</td><td>1.28吨</td><td>$1,600–$2,400</td></tr>
+                <tr><td>汽车 — 4人</td><td>43</td><td>0.64吨</td><td>$800–$1,200</td></tr>
+                <tr><td>电动车（美国电网平均）</td><td>50</td><td>0.75吨</td><td>$600–$900</td></tr>
+                <tr><td>公交车（柴油，平均载客）</td><td>80</td><td>1.20吨</td><td>$1,200–$1,800</td></tr>
+                <tr><td>通勤铁路 / 地铁</td><td>40</td><td>0.60吨</td><td>$1,000–$2,400</td></tr>
+                <tr><td>电动自行车</td><td>5</td><td>0.08吨</td><td>$100–$300</td></tr>
+                <tr><td>自行车 / 步行</td><td>0</td><td>约0吨</td><td>$0–$100</td></tr>
+            </tbody>
+        </table>
+
+        <p><em>年度数据假设每年13,300公里（260个工作日 × 25.7公里往返）。费用包括燃油、票价、停车和基本车辆运行成本，但不含购买价格。拼车费用为人均分摊。</em></p>
+
+        <h2>与独自驾车相比的年度节省</h2>
+
+        <p>如果您目前独自驾车并考虑替代方案，以下是每年可节省的CO₂量。</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>从独自驾车改为</th>
+                    <th>年度CO₂节省</th>
+                    <th>减少百分比</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>2人拼车</td><td>1.28吨</td><td>50%</td></tr>
+                <tr><td>4人拼车</td><td>1.92吨</td><td>75%</td></tr>
+                <tr><td>电动车</td><td>1.80吨</td><td>71%</td></tr>
+                <tr><td>公交车</td><td>1.35吨</td><td>53%</td></tr>
+                <tr><td>火车 / 地铁</td><td>1.95吨</td><td>76%</td></tr>
+                <tr><td>电动自行车</td><td>2.48吨</td><td>97%</td></tr>
+                <tr><td>自行车</td><td>2.55吨</td><td>约100%</td></tr>
+            </tbody>
+        </table>
+
+        <h2>拼车的影响</h2>
+
+        <p>拼车是减少通勤排放最简单的方法之一，无需改变您的车辆。关键原则：将汽车排放分摊给更多乘客。</p>
+
+        <ul>
+            <li><strong>2人拼车：</strong>人均排放减少正好50%。如果您和一位同事共享20英里的车程，每人排放85克/公里而非170克/公里。</li>
+            <li><strong>3人拼车：</strong>排放减少67%。每人约排放57克/公里。</li>
+            <li><strong>4人拼车：</strong>排放减少75%。人均43克/公里，满载汽车接近通勤火车的每乘客效率。</li>
+            <li><strong>拼车服务：</strong>共享乘车（如Uber Pool）通常搭载2–3名乘客，比独自乘车减少30–60%的排放，尽管空驶（空车接乘客）可能会侵蚀部分收益。</li>
+        </ul>
+
+        <h2>电动车通勤</h2>
+
+        <p>电动车零尾气排放，但其实际碳足迹取决于当地电力的发电方式。</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>电网来源</th>
+                    <th>每乘客公里CO₂（克，电动车）</th>
+                    <th>年度排放（16英里通勤）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>美国全国平均</td><td>50</td><td>0.75吨</td></tr>
+                <tr><td>加利福尼亚（可再生能源为主）</td><td>25</td><td>0.38吨</td></tr>
+                <tr><td>煤电为主电网（如波兰）</td><td>90</td><td>1.35吨</td></tr>
+                <tr><td>纯可再生能源（家用太阳能）</td><td>10</td><td>0.15吨</td></tr>
+            </tbody>
+        </table>
+
+        <p>即使在最脏的电网上，电动车的CO₂排放约为汽油车的一半。在清洁电网或家用太阳能下，电动车接近公共交通的碳足迹。电池制造在典型车辆生命周期内（分摊到20万+公里）增加约30–50克/公里，已包含在上述数据中。</p>
+
+        <h2>实际场景</h2>
+
+        <h3>城市通勤者（单程5英里）</h3>
+        <p>较短的城市通勤改变了计算。单程5英里（8公里）——每年约4,160公里——独自驾车约产生<strong>0.71吨CO₂</strong>。公交车产生0.33吨。电动自行车20–30分钟覆盖相同距离，仅产生0.02吨。对于城市通勤者，考虑到停车时间，骑自行车或电动自行车往往比开车更快。</p>
+
+        <h3>郊区通勤者（单程25英里）</h3>
+        <p>较长的郊区通勤放大了差异。单程25英里（40公里）——每年约20,800公里——独自驾车约产生<strong>4.02吨CO₂</strong>。停车换乘火车选项可将其降至约0.83吨。对于单程超过15英里的距离，电动车或混合通勤（开车到交通枢纽，然后乘火车）提供了实用性和减排的最佳平衡。</p>
+
+        <h2>混合通勤：两全其美</h2>
+
+        <p>许多通勤者无法完全无车。混合通勤——开车一段路程，然后换乘公共交通——可以在不完全改变生活方式的情况下获得大部分节省。</p>
+
+        <h3>运作方式</h3>
+        <p>开车5英里到停车换乘站，然后乘坐通勤火车走完剩下的11英里。您的排放分解如下：</p>
+
+        <ul>
+            <li><strong>5英里汽车段：</strong>8公里 × 170克/公里 = 每天1.36千克CO₂</li>
+            <li><strong>11英里火车段：</strong>17.7公里 × 40克/公里 = 每天0.71千克CO₂</li>
+            <li><strong>每日总计：</strong>2.07千克CO₂（vs 全程独自驾车4.39千克）</li>
+            <li><strong>年度总计：</strong>约0.54吨 vs 1.14吨——<strong>减少53%</strong></li>
+        </ul>
+
+        <h3>常见混合通勤组合</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>混合组合</th>
+                    <th>每乘客公里CO₂（克，混合）</th>
+                    <th>年度CO₂（16英里通勤）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>开车5英里 → 火车11英里</td><td>62</td><td>1.03吨</td></tr>
+                <tr><td>开车8英里 → 公交8英里</td><td>100</td><td>1.66吨</td></tr>
+                <tr><td>骑车3英里 → 火车13英里</td><td>31</td><td>0.52吨</td></tr>
+                <tr><td>电动自行车5英里 → 公交11英里</td><td>53</td><td>0.88吨</td></tr>
+            </tbody>
+        </table>
+
+        <h2>减少通勤碳足迹的快速方法</h2>
+
+        <ul>
+            <li><strong>每周拼车2天：</strong>2天拼车计划以最小干扰减少20%的年度排放。</li>
+            <li><strong>每周在家办公1天：</strong>减少一天驾驶可为典型通勤节省约0.5吨/年。</li>
+            <li><strong>短途通勤改用电动自行车：</strong>10英里以下，电动自行车在城市地区往往比开车更快，年运行成本不到$300。</li>
+            <li><strong>正确充气轮胎：</strong>仅正确的胎压就能提高3%的燃油效率，每年节省约75千克CO₂。</li>
+            <li><strong>将办事与通勤结合：</strong>在回家路上顺路办事可避免额外出行，减少10–15%的总驾驶量。</li>
+            <li><strong>考虑下一辆车买电动车：</strong>即使在美国平均电网下，电动车也比汽油车减少71%的通勤排放。</li>
+        </ul>
+
+        <div class="faq">
+            <h2>常见问题</h2>
+
+            <div class="faq-item">
+                <h3>骑自行车真的是零碳吗？</h3>
+                <p>骑行的CO₂主要来自食物能量和自行车制造。一个营养良好的标准自行车骑行者每公里约产生5–15克CO₂——约为汽车排放的1%。实际上可以忽略不计。电动自行车增加少量电力成本（约5克/公里），但仍比驾车低95%以上。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>我的通勤与平均水平相比如何？</h3>
+                <p>美国通勤者平均单程驾车16英里，仅通勤每年约产生2.6吨CO₂。如果您驾车距离更短或使用公共交通，您可能低于平均水平。如果您的往返超过40英里且驾车，仅通勤排放就可能超过3吨/年——超过许多人整个年度的交通碳预算。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>如果我所在地区没有公共交通怎么办？</h3>
+                <p>对于没有公交的郊区和农村地区，最佳选择是拼车（减少50–75%排放）、改用电动或混合动力车（减少50–80%），或协商远程办公日。即使每周1-2天在家办公也能减少20–40%的通勤排放。</p>
+            </div>
+        </div>
+
+        <div class="source-note">
+            <p><strong>数据来源：</strong>美国EPA平均车辆排放因子（2024）、欧洲环境署交通排放数据库、DEFRA 2024温室气体转换因子、Our World in Data——每乘客公里交通CO₂排放。年度费用估算来自AAA驾驶成本数据和APTA交通票价调查。</p>
+        </div>
+
+        <nav class="article-nav">
+            <a href="/zh/articles/reduce-car-emissions/">← 上一篇：如何减少汽车排放</a>
+            <a href="/zh/articles/working-from-home/">下一篇：在家办公能减少碳足迹吗？ →</a>
+        </nav>
+    </main>
+
+    <script src="/share.js"></script>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Carbon Simple.</p>
+            <div class="footer-links">
+                <a href="/zh/about/">关于</a>
+                <a href="/zh/about/#sources">数据来源</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>交通碳足迹 — 如何计算 — Carbon Simple</title>
+    <meta name="description" content="如何计算您的交通碳足迹，包括驾车、飞行和公共交通的排放。包含排放因子、公式和实际案例。">
+    <meta name="keywords" content="交通碳足迹, 汽车排放计算器, 飞行碳足迹, 公共交通排放, 碳排放计算">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Mono&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/transport-carbon-footprint/" />
+    <link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/transport-carbon-footprint/" />
+    <link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/transport-carbon-footprint/" />
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "交通碳足迹 — 如何计算",
+        "description": "如何计算您的交通碳足迹，包括驾车、飞行和公共交通的排放。包含排放因子、公式和实际案例。",
+        "author": {
+            "@type": "Organization",
+            "name": "Carbon Simple"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Carbon Simple",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://carbon-simple.pages.dev/favicon.ico"
+            }
+        },
+        "datePublished": "2026-03-30",
+        "dateModified": "2026-03-30",
+        "wordCount": 1000,
+        "timeRequired": "PT7M",
+        "articleSection": "计算方法",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://carbon-simple.pages.dev/zh/articles/transport-carbon-footprint/"
+        },
+        "keywords": "交通碳足迹, 汽车排放计算器, 飞行碳足迹, 公共交通排放"
+    }
+    </script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="/zh/" class="logo">Carbon Simple</a>
+            <div class="nav-links">
+                <a href="/zh/calculator/">计算器</a>
+                <a href="/zh/articles/">文章</a>
+                <a href="/zh/about/">关于</a>
+            </div>
+        </div>
+    </nav>
+
+    <script src="/language.js"></script>
+    <script src="/analytics.js"></script>
+
+    <main class="article-page">
+        <p class="article-meta">计算方法 · 更新于2026年3月 · 7分钟阅读</p>
+        <div class="social-share">
+            <button onclick="shareToTwitter('交通碳足迹 — 如何计算', 'https://carbon-simple.pages.dev/zh/articles/transport-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                </svg>
+                分享到Twitter
+            </button>
+            <button onclick="shareToFacebook('https://carbon-simple.pages.dev/zh/articles/transport-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                分享到Facebook
+            </button>
+            <button onclick="shareToLinkedIn('交通碳足迹 — 如何计算', 'https://carbon-simple.pages.dev/zh/articles/transport-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                分享到LinkedIn
+            </button>
+            <button onclick="copyShareLink('https://carbon-simple.pages.dev/zh/articles/transport-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 21H8V7h11v14zM17 10h-7v7h7v-7zM5 13h7v7H5v-7zM5 21h7v-7H5v7zM19 3H8v7h11V3z"/>
+                </svg>
+                复制链接
+            </button>
+        </div>
+        <h1>交通碳足迹 — 如何计算</h1>
+
+        <p><strong>快速回答：</strong>交通是许多人个人碳排放的最大来源。一辆普通汽车每公里排放0.15–0.25千克二氧化碳当量，一次长途往返航班约产生1.6吨二氧化碳当量，公共交通平均每公里0.04–0.12千克二氧化碳当量。将您的年度出行距离乘以相应的排放因子，即可得出您的交通碳足迹。</p>
+
+        <h2>为什么交通很重要</h2>
+
+        <p>交通约占全球二氧化碳排放的16%，但对于发达国家的个人来说，通常占个人排放的25–30%。开车通勤、偶尔飞行和货物运输都会迅速累积。</p>
+
+        <h2>汽车排放</h2>
+
+        <p>您的汽车排放取决于燃料类型、发动机大小和驾驶习惯。基本公式是：</p>
+
+        <p><strong>年度排放 = (年度行驶公里数) × (每公里排放因子)</strong></p>
+
+        <h3>按车型分类的排放因子</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>车型</th>
+                    <th>每公里CO₂e</th>
+                    <th>年度排放（10,000公里）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>汽油车（平均）</td><td>0.192千克</td><td>1.92吨</td></tr>
+                <tr><td>柴油车（平均）</td><td>0.171千克</td><td>1.71吨</td></tr>
+                <tr><td>混合动力车</td><td>0.110千克</td><td>1.10吨</td></tr>
+                <tr><td>电动车（全球电网平均）</td><td>0.053千克</td><td>0.53吨</td></tr>
+                <tr><td>电动车（可再生能源电网）</td><td>0.020千克</td><td>0.20吨</td></tr>
+            </tbody>
+        </table>
+
+        <h3>计算示例</h3>
+
+        <p>如果您每年驾驶汽油车行驶12,000公里：</p>
+        <p><strong>12,000 × 0.192 = 2,304千克CO₂e = 每年2.3吨CO₂e</strong></p>
+
+        <h2>飞行排放</h2>
+
+        <p>飞行的碳影响巨大。一次长途往返飞行的排放可能超过一年的日常驾车。排放取决于距离、舱位和是否直飞。</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>航班类型</th>
+                    <th>往返CO₂e</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>短途（1,500公里以下）</td><td>0.3吨</td></tr>
+                <tr><td>中途（1,500–4,000公里）</td><td>0.8吨</td></tr>
+                <tr><td>长途（4,000公里以上）</td><td>1.6吨</td></tr>
+                <tr><td>商务舱（长途）</td><td>2.4吨</td></tr>
+                <tr><td>头等舱（长途）</td><td>4.0吨</td></tr>
+            </tbody>
+        </table>
+
+        <p>如果您每年飞行2次短途和1次长途往返：<strong>(2 × 0.3) + (1 × 1.6) = 2.2吨CO₂e</strong></p>
+
+        <h2>公共交通排放</h2>
+
+        <p>公共交通在每乘客公里效率上显著更高，因为它将能源成本分摊给了众多乘客。</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>交通方式</th>
+                    <th>每公里CO₂e</th>
+                    <th>年度排放（5,000公里）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>公交车（柴油）</td><td>0.105千克</td><td>0.53吨</td></tr>
+                <tr><td>公交车（电动/混合动力）</td><td>0.040千克</td><td>0.20吨</td></tr>
+                <tr><td>地铁</td><td>0.041千克</td><td>0.21吨</td></tr>
+                <tr><td>通勤铁路</td><td>0.060千克</td><td>0.30吨</td></tr>
+                <tr><td>高铁</td><td>0.008千克</td><td>0.04吨</td></tr>
+            </tbody>
+        </table>
+
+        <h2>骑自行车和步行</h2>
+
+        <p>骑自行车和步行的运行排放几乎为零。考虑到制造、维护和食物能量，一辆自行车每公里大约产生5–15克CO₂e。步行的排放同样可以忽略不计。</p>
+
+        <h2>如何减少交通排放</h2>
+
+        <ul>
+            <li><strong>减少驾车：</strong>合并出行、拼车或在家办公</li>
+            <li><strong>改用电动车：</strong>电动车可减少50–80%的驾驶排放</li>
+            <li><strong>使用公共交通：</strong>火车和公交车每公里排放比汽车少40–80%</li>
+            <li><strong>短途骑自行车：</strong>5公里以下的路程骑自行车往往最快</li>
+            <li><strong>减少飞行：</strong>800公里以下的旅行乘坐火车</li>
+            <li><strong>选择经济舱：</strong>商务舱会使您的飞行碳足迹翻倍</li>
+        </ul>
+
+        <div class="faq">
+            <h2>常见问题</h2>
+
+            <div class="faq-item">
+                <h3>如何查找我的年度行驶距离？</h3>
+                <p>查看您的里程表读数或使用汽车的行车电脑。或者，用年度燃油购买量除以汽车的燃油效率也能得出较好的估计。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>交通拥堵会增加排放吗？</h3>
+                <p>是的。怠速和走走停停的驾驶方式可能使油耗增加20–40%，相比顺畅的高速公路驾驶。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>电动车真的碳排放更低吗？</h3>
+                <p>是的，即使考虑到电池制造和电力发电。一辆典型的电动车在其生命周期内产生的二氧化碳比同等汽油车少50–80%。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>我应该计算间接交通排放吗？</h3>
+                <p>对于个人计算，重点关注直接燃料使用。但为了完整性，汽车制造在其生命周期内大约增加10–15吨CO₂e（可按使用年限分摊）。</p>
+            </div>
+        </div>
+
+        <div class="source-note">
+            <p><strong>数据来源：</strong>DEFRA 2024排放因子、IEA（2024）、EEA交通排放数据库、IPCC AR6 WGIII。</p>
+        </div>
+
+        <nav class="article-nav">
+            <a href="/zh/articles/what-is-carbon-footprint/">← 上一篇：什么是碳足迹？</a>
+            <a href="/zh/articles/food-carbon-footprint/">下一篇：食物碳足迹 →</a>
+        </nav>
+    </main>
+
+    <script src="/share.js"></script>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Carbon Simple.</p>
+            <div class="footer-links">
+                <a href="/zh/about/">关于</a>
+                <a href="/zh/about/#sources">数据来源</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

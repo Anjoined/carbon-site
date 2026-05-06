@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>免费碳足迹计算器 — Carbon Simple</title>
+    <meta name="description" content="2 分钟内计算您的个人碳足迹。免费使用，无需注册。基于 IPCC 排放因子。">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Carbon Simple">
+    <meta name="keywords" content="碳足迹计算器, 计算二氧化碳排放, 个人碳足迹, 环保计算器">
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Mono&display=swap" rel="stylesheet">
+
+    <!-- Performance optimization -->
+    <link rel="preload" href="/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/style.css"></noscript>
+
+    <!-- hreflang tags for SEO -->
+    <link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/calculator/" />
+    <link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/calculator/" />
+    <link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/calculator/" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "个人碳足迹计算器",
+        "description": "2 分钟内计算您的个人碳足迹。免费使用，无需注册。基于 IPCC 排放因子。",
+        "url": "https://carbon-simple.pages.dev/zh/calculator/",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Web",
+        "author": {
+            "@type": "Organization",
+            "name": "Carbon Simple"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Carbon Simple",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://carbon-simple.pages.dev/favicon.ico"
+            }
+        },
+        "featureList": [
+            "计算年度碳足迹",
+            "按交通、饮食、居住和消费分类明细",
+            "估算日常活动的二氧化碳排放量",
+            "与平均排放量对比",
+            "免费使用，无需注册"
+        ],
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://carbon-simple.pages.dev/zh/calculator/"
+        },
+        "keywords": "碳足迹计算器, 个人碳足迹, 计算二氧化碳排放, 环保工具, 可持续生活"
+    }
+    </script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="/zh/" class="logo">Carbon Simple</a>
+            <div class="nav-links">
+                <a href="/zh/calculator/">计算器</a>
+                <a href="/zh/articles/">文章</a>
+                <a href="/zh/about/">关于</a>
+            </div>
+        </div>
+    </nav>
+
+    <script src="/language.js"></script>
+    <script src="/analytics.js"></script>
+
+    <main class="calculator-page">
+        <h1>个人碳足迹计算器</h1>
+        <p class="subtitle">2 分钟估算您的年度二氧化碳排放量。无需注册。</p>
+
+        <form id="calc-form">
+            <!-- 交通出行 -->
+            <div class="calc-section">
+                <h2>🚗 交通出行</h2>
+                <div class="form-group">
+                    <label for="car-km">每周驾车里程（公里）</label>
+                    <input type="number" id="car-km" value="100" min="0">
+                    <p class="hint">平均值：美国约 150 公里/周，欧洲约 50 公里/周</p>
+                </div>
+                <div class="form-group">
+                    <label for="car-type">车辆燃料类型</label>
+                    <select id="car-type">
+                        <option value="gasoline">汽油车</option>
+                        <option value="diesel">柴油车</option>
+                        <option value="hybrid">混合动力</option>
+                        <option value="electric">纯电动</option>
+                        <option value="none">我不开车</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="flights">每年往返航班次数</label>
+                    <input type="number" id="flights" value="2" min="0">
+                    <p class="hint">一次长途往返航班 ≈ 1.6 吨 CO₂</p>
+                </div>
+            </div>
+
+            <!-- 饮食习惯 -->
+            <div class="calc-section">
+                <h2>🍽️ 饮食习惯</h2>
+                <div class="form-group">
+                    <label for="diet">您的饮食类型</label>
+                    <select id="diet">
+                        <option value="high-meat">高肉食（每天吃肉）</option>
+                        <option value="medium-meat" selected>中等肉食（每周几次）</option>
+                        <option value="low-meat">低肉食（每周一次）</option>
+                        <option value="vegetarian">素食</option>
+                        <option value="vegan">纯素</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="beef-freq">每周牛肉/羊肉餐数</label>
+                    <input type="number" id="beef-freq" value="3" min="0" max="21">
+                </div>
+            </div>
+
+            <!-- 居住环境 -->
+            <div class="calc-section">
+                <h2>🏠 居住环境</h2>
+                <div class="form-group">
+                    <label for="house-size">住房面积</label>
+                    <select id="house-size">
+                        <option value="small">小（单间/一居室）</option>
+                        <option value="medium" selected>中（两到三居室）</option>
+                        <option value="large">大（四居室以上）</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="energy-source">主要供暖能源</label>
+                    <select id="energy-source">
+                        <option value="natural-gas">天然气</option>
+                        <option value="electricity">电力（电网混合）</option>
+                        <option value="oil">燃油</option>
+                        <option value="renewable">可再生能源</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="household-size">家庭人数</label>
+                    <input type="number" id="household-size" value="2" min="1" max="10">
+                </div>
+            </div>
+
+            <!-- 日常消费 -->
+            <div class="calc-section">
+                <h2>🛒 日常消费</h2>
+                <div class="form-group">
+                    <label for="clothes">每年新购衣物数量</label>
+                    <input type="number" id="clothes" value="30" min="0">
+                    <p class="hint">全球平均：约 27 件/年。快时尚消费者：60 件以上</p>
+                </div>
+                <div class="form-group">
+                    <label for="electronics">每年新购电子设备数量</label>
+                    <input type="number" id="electronics" value="2" min="0">
+                </div>
+            </div>
+
+            <button type="submit" class="calc-btn">计算我的碳足迹</button>
+        </form>
+
+        <!-- 结果 -->
+        <div class="results" id="results">
+            <div class="results-box">
+                <div class="results-number" id="total-number">—</div>
+                <div class="results-unit">吨 CO₂e/年</div>
+                <div class="results-comparison" id="comparison-text"></div>
+                <div class="results-breakdown">
+                    <h3>分类明细</h3>
+                    <div class="breakdown-item">
+                        <span>🚗 交通出行</span>
+                        <span id="breakdown-transport">—</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>🍽️ 饮食习惯</span>
+                        <span id="breakdown-food">—</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>🏠 居住环境</span>
+                        <span id="breakdown-housing">—</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>🛒 日常消费</span>
+                        <span id="breakdown-consumption">—</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Carbon Simple. 排放因子来自 IPCC AR6 和 DEFRA。</p>
+            <div class="footer-links">
+                <a href="/zh/about/">关于</a>
+                <a href="/zh/about/#sources">数据来源</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    window.__i18n = {
+        belowAvg: '低于全球平均 %pct%%%（%avg% 吨）',
+        aboveAvg: '高于全球平均 %pct%%%（%avg% 吨）',
+        linkCopied: '链接已复制！',
+        linkCopyFailed: '复制失败，请手动复制。'
+    };
+    </script>
+    <script src="/calculator.js"></script>
+</body>
+</html>

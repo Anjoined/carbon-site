@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>食物碳足迹 — 如何计算饮食的影响 — Carbon Simple</title>
+    <meta name="description" content="如何根据饮食类型、具体食物和食物浪费计算您的食物碳足迹。包含排放因子、数据表格和实用建议。">
+    <meta name="keywords" content="食物碳足迹, 饮食碳排放, 肉类排放, 植物性饮食气候, 食物CO2计算器">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Mono&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/food-carbon-footprint/" />
+    <link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/food-carbon-footprint/" />
+    <link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/food-carbon-footprint/" />
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "食物碳足迹 — 如何计算饮食的影响",
+        "description": "如何根据饮食类型、具体食物和食物浪费计算您的食物碳足迹。包含排放因子、数据表格和实用建议。",
+        "author": {
+            "@type": "Organization",
+            "name": "Carbon Simple"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Carbon Simple",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://carbon-simple.pages.dev/favicon.ico"
+            }
+        },
+        "datePublished": "2026-03-30",
+        "dateModified": "2026-03-30",
+        "wordCount": 1050,
+        "timeRequired": "PT7M",
+        "articleSection": "计算方法",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://carbon-simple.pages.dev/zh/articles/food-carbon-footprint/"
+        },
+        "keywords": "食物碳足迹, 饮食碳排放, 肉类排放, 植物性饮食气候, 食物CO2计算器"
+    }
+    </script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="/zh/" class="logo">Carbon Simple</a>
+            <div class="nav-links">
+                <a href="/zh/calculator/">计算器</a>
+                <a href="/zh/articles/">文章</a>
+                <a href="/zh/about/">关于</a>
+            </div>
+        </div>
+    </nav>
+
+    <script src="/language.js"></script>
+    <script src="/analytics.js"></script>
+
+    <main class="article-page">
+        <p class="article-meta">计算方法 · 更新于2026年3月 · 7分钟阅读</p>
+        <div class="social-share">
+            <button onclick="shareToTwitter('食物碳足迹 — 如何计算饮食的影响', 'https://carbon-simple.pages.dev/zh/articles/food-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                </svg>
+                分享到Twitter
+            </button>
+            <button onclick="shareToFacebook('https://carbon-simple.pages.dev/zh/articles/food-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                分享到Facebook
+            </button>
+            <button onclick="shareToLinkedIn('食物碳足迹 — 如何计算饮食的影响', 'https://carbon-simple.pages.dev/zh/articles/food-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                分享到LinkedIn
+            </button>
+            <button onclick="copyShareLink('https://carbon-simple.pages.dev/zh/articles/food-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 21H8V7h11v14zM17 10h-7v7h7v-7zM5 13h7v7H5v-7zM5 21h7v-7H5v7zM19 3H8v7h11V3z"/>
+                </svg>
+                复制链接
+            </button>
+        </div>
+        <h1>食物碳足迹 — 如何计算饮食的影响</h1>
+
+        <p><strong>快速回答：</strong>食物每年产生1.1至3.3吨CO₂e，具体取决于您的饮食。纯素饮食平均1.1吨，素食1.5吨，中等肉类2.5吨，高肉类3.3吨。从高肉类饮食转为低肉类饮食每年可节省约1.4吨CO₂e。</p>
+
+        <h2>为什么食物排放很重要</h2>
+
+        <p>食物生产约占全球温室气体排放的20–30%。它包括农业、畜牧业、土地利用变化、加工、运输和食物浪费产生的排放。对个人而言，食物通常是仅次于交通的第二大排放类别。</p>
+
+        <h2>按饮食类型分类的排放</h2>
+
+        <p>估算食物碳足迹最简单的方法是按饮食类型：</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>饮食类型</th>
+                    <th>年度CO₂e</th>
+                    <th>日均排放</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>纯素</td><td>1.1吨</td><td>3.0千克</td></tr>
+                <tr><td>素食</td><td>1.5吨</td><td>4.1千克</td></tr>
+                <tr><td>鱼素</td><td>1.7吨</td><td>4.7千克</td></tr>
+                <tr><td>低肉类（每周吃肉1–2次）</td><td>1.9吨</td><td>5.2千克</td></tr>
+                <tr><td>中等肉类（大多数天吃肉）</td><td>2.5吨</td><td>6.8千克</td></tr>
+                <tr><td>高肉类（每天吃肉）</td><td>3.3吨</td><td>9.0千克</td></tr>
+            </tbody>
+        </table>
+
+        <h2>按具体食物分类的排放</h2>
+
+        <p>不同食物的排放差异巨大。每千克食物的排放量差别很大：</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>食物</th>
+                    <th>每千克CO₂e</th>
+                    <th>每100克蛋白质CO₂e</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>牛肉</td><td>60千克</td><td>50千克</td></tr>
+                <tr><td>羊肉</td><td>24千克</td><td>20千克</td></tr>
+                <tr><td>奶酪</td><td>21千克</td><td>32千克</td></tr>
+                <tr><td>猪肉</td><td>7千克</td><td>8千克</td></tr>
+                <tr><td>鸡肉</td><td>6千克</td><td>7千克</td></tr>
+                <tr><td>养殖鱼</td><td>5千克</td><td>6千克</td></tr>
+                <tr><td>鸡蛋</td><td>4.5千克</td><td>7千克</td></tr>
+                <tr><td>大米</td><td>4千克</td><td>16千克</td></tr>
+                <tr><td>豆腐</td><td>3千克</td><td>4千克</td></tr>
+                <tr><td>豆类/扁豆</td><td>1千克</td><td>1.5千克</td></tr>
+                <tr><td>蔬菜</td><td>0.4千克</td><td>—</td></tr>
+                <tr><td>水果</td><td>0.5千克</td><td>—</td></tr>
+            </tbody>
+        </table>
+
+        <h2>计算您的食物碳足迹</h2>
+
+        <p>您可以通过两种方式计算食物排放：</p>
+
+        <h3>方法一：饮食类型（简单）</h3>
+        <p>从上表中选择最符合您饮食习惯的饮食类型。这对大多数人来说是一个可靠的估算。</p>
+
+        <h3>方法二：食物日记（详细）</h3>
+        <p>记录一周内吃的食物，将每种食物的重量乘以其排放因子，然后换算为年度排放。例如：</p>
+
+        <ul>
+            <li>每周300克牛肉：0.3 × 60 × 52 = <strong>936千克CO₂e/年</strong></li>
+            <li>每周1千克鸡肉：1 × 6 × 52 = <strong>312千克CO₂e/年</strong></li>
+            <li>每周2千克蔬菜：2 × 0.4 × 52 = <strong>42千克CO₂e/年</strong></li>
+        </ul>
+
+        <h2>食物浪费排放</h2>
+
+        <p>全球约30%的食物被浪费。对个人而言，减少食物浪费是降低食物碳足迹最简单的方法之一。每浪费一千克食物，就意味着浪费了其生产过程中的排放加上垃圾填埋分解产生的额外甲烷排放。</p>
+
+        <p><strong>人均食物浪费：</strong>发达国家每年约74千克，增加约0.2–0.4吨CO₂e。</p>
+
+        <h2>如何减少食物排放</h2>
+
+        <ul>
+            <li><strong>少吃牛肉和羊肉：</strong>用鸡肉替代牛肉每千克可节省54千克CO₂e</li>
+            <li><strong>尝试植物性饮食日：</strong>每周2–3天不吃肉可减少20–30%的食物碳足迹</li>
+            <li><strong>减少乳制品：</strong>改用燕麦奶或豆浆（比牛奶排放低60–80%）</li>
+            <li><strong>购买应季和本地食物：</strong>减少运输和冷藏排放</li>
+            <li><strong>减少食物浪费：</strong>计划用餐、利用剩菜、堆肥残渣</li>
+            <li><strong>种植一些食物：</strong>香草、沙拉蔬菜和番茄是容易在家种植的选择</li>
+        </ul>
+
+        <div class="faq">
+            <h2>常见问题</h2>
+
+            <div class="faq-item">
+                <h3>牛肉真的比鸡肉差那么多吗？</h3>
+                <p>是的。牛肉每千克产生的排放是鸡肉的10倍。这是因为牛在消化过程中（肠道发酵）产生甲烷，且需要更多的土地和饲料。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>有机食品呢？</h3>
+                <p>有机食品每单位面积的排放有时更低，但由于产量较低，每单位产出的排放可能更高。与选择吃什么相比，这个影响较小。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>本地食物的排放总是更低吗？</h3>
+                <p>不一定。运输平均只占食物排放的约6%。您吃什么远比食物从哪里来更重要。本地牛肉的排放仍然高于进口扁豆。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>食物浪费如何导致排放？</h3>
+                <p>当食物在垃圾填埋场无氧分解时，会产生甲烷——一种比二氧化碳强28倍的温室气体。减少浪费是最有影响力的个人行动之一。</p>
+            </div>
+        </div>
+
+        <div class="source-note">
+            <p><strong>数据来源：</strong>Poore & Nemecek (2018), Nature; FAO (2024); Our World in Data; IPCC AR6 WGIII; DEFRA 2024排放因子。</p>
+        </div>
+
+        <nav class="article-nav">
+            <a href="/zh/articles/transport-carbon-footprint/">← 上一篇：交通碳足迹</a>
+            <a href="/zh/articles/housing-carbon-footprint/">下一篇：住房碳足迹 →</a>
+        </nav>
+    </main>
+
+    <script src="/share.js"></script>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Carbon Simple.</p>
+            <div class="footer-links">
+                <a href="/zh/about/">关于</a>
+                <a href="/zh/about/#sources">数据来源</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

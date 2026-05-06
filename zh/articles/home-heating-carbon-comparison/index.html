@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家庭供暖：燃气 vs 电力 vs 热泵 — 碳对比 — Carbon Simple</title>
+    <meta name="description" content="对比燃气锅炉、电加热、空气源和地源热泵的CO₂排放。包含成本、效率和电网影响的详细数据分解。">
+    <meta name="keywords" content="家庭供暖碳排放, 热泵vs燃气锅炉, 供暖CO2对比, 节能供暖">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Mono&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/home-heating-carbon-comparison/" />
+    <link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/home-heating-carbon-comparison/" />
+    <link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/home-heating-carbon-comparison/" />
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "家庭供暖：燃气 vs 电力 vs 热泵 — 碳对比",
+        "description": "对比燃气锅炉、电加热、空气源和地源热泵的CO₂排放。包含成本、效率和电网影响的详细数据分解。",
+        "author": {"@type": "Organization", "name": "Carbon Simple"},
+        "publisher": {"@type": "Organization", "name": "Carbon Simple", "logo": {"@type": "ImageObject", "url": "https://carbon-simple.pages.dev/favicon.ico"}},
+        "datePublished": "2026-03-31",
+        "dateModified": "2026-03-31",
+        "wordCount": 1100,
+        "timeRequired": "PT7M",
+        "articleSection": "行动指南",
+        "mainEntityOfPage": {"@type": "WebPage", "@id": "https://carbon-simple.pages.dev/zh/articles/home-heating-carbon-comparison/"},
+        "keywords": "家庭供暖碳排放, 热泵vs燃气锅炉, 供暖CO2对比, 节能供暖"
+    }
+    </script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="/zh/" class="logo">Carbon Simple</a>
+            <div class="nav-links">
+                <a href="/zh/calculator/">计算器</a>
+                <a href="/zh/articles/">文章</a>
+                <a href="/zh/about/">关于</a>
+            </div>
+        </div>
+    </nav>
+    <script src="/language.js"></script>
+    <script src="/analytics.js"></script>
+
+    <main class="article-page">
+        <p class="article-meta">行动指南 · 更新于2026年3月 · 7分钟阅读</p>
+        <div class="social-share">
+            <button onclick="shareToTwitter('家庭供暖：燃气 vs 电力 vs 热泵 — 碳对比', 'https://carbon-simple.pages.dev/zh/articles/home-heating-carbon-comparison/')">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+                分享到Twitter
+            </button>
+            <button onclick="shareToFacebook('https://carbon-simple.pages.dev/zh/articles/home-heating-carbon-comparison/')">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                分享到Facebook
+            </button>
+            <button onclick="shareToLinkedIn('家庭供暖：燃气 vs 电力 vs 热泵 — 碳对比', 'https://carbon-simple.pages.dev/zh/articles/home-heating-carbon-comparison/')">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                分享到LinkedIn
+            </button>
+            <button onclick="copyShareLink('https://carbon-simple.pages.dev/zh/articles/home-heating-carbon-comparison/')">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 21H8V7h11v14zM17 10h-7v7h7v-7zM5 13h7v7H5v-7zM5 21h7v-7H5v7zM19 3H8v7h11V3z"/></svg>
+                复制链接
+            </button>
+        </div>
+        <h1>家庭供暖：燃气 vs 电力 vs 热泵 — 碳对比</h1>
+
+        <p><strong>快速回答：</strong>空间供暖约占家庭能源使用的40%。燃气锅炉每提供100千瓦时热量排放约21千克CO₂，而空气源热泵仅排放4.3千克——少近5倍。在清洁电网下，热泵排放降至1千克以下。从燃气切换到热泵可将您的供暖碳足迹减少75–90%。</p>
+
+        <h2>为什么供暖对碳足迹很重要</h2>
+
+        <p>家庭供暖是大多数家庭最大的能源支出，也是个人碳排放的最大来源之一。在英国普通家庭中，供暖约占总能源使用的40%，每年排放2.5–3.0吨CO₂。在更寒冷的气候中，如美国北部或斯堪的纳维亚，这一数字可达4–5吨。</p>
+
+        <p>您使用的供暖系统类型会产生巨大差异。比较传统燃气锅炉和现代热泵不仅仅是舒适度或成本问题——而是每单位热量5倍的碳排放差异。</p>
+
+        <h2>供暖系统对比：每100千瓦时热量的CO₂排放</h2>
+
+        <p>下表显示了四种常见供暖技术的CO₂排放，按每提供到您家的100千瓦时有用热量计量。数据假设美国平均电力电网组合（约0.4千克CO₂/千瓦时）。</p>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>供暖系统</th>
+                    <th>每100千瓦时热量的CO₂</th>
+                    <th>效率 / COP</th>
+                    <th>年度成本（平均家庭）</th>
+                    <th>初始成本</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>天然气锅炉</td>
+                    <td>约21千克</td>
+                    <td>90–95%</td>
+                    <td>$800–1,200</td>
+                    <td>$3,000–6,000</td>
+                </tr>
+                <tr>
+                    <td>电加热</td>
+                    <td>约13千克</td>
+                    <td>100%</td>
+                    <td>$1,500–2,500</td>
+                    <td>$1,000–3,000</td>
+                </tr>
+                <tr>
+                    <td>空气源热泵</td>
+                    <td>约4.3千克</td>
+                    <td>250–400%（COP 2.5–4）</td>
+                    <td>$500–900</td>
+                    <td>$8,000–15,000</td>
+                </tr>
+                <tr>
+                    <td>地源热泵</td>
+                    <td>约3.3千克</td>
+                    <td>350–500%（COP 3.5–5）</td>
+                    <td>$400–700</td>
+                    <td>$15,000–30,000</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>燃气锅炉燃烧11.2千克天然气以提供100千瓦时热量（92%效率），释放约21千克CO₂。性能系数（COP）为3.0的空气源热泵仅使用33千瓦时电力即可提供相同的100千瓦时热量，在美国平均电网上排放约4.3千克CO₂。</p>
+
+        <h2>电力电网如何改变一切</h2>
+
+        <p>电加热的碳优势完全取决于电力的发电方式。在煤电为主的电网上，即使是热泵也可能比燃气锅炉排放更多CO₂。在可再生能源为主的电网上，差异是惊人的。</p>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>电网类型</th>
+                    <th>电网CO₂强度</th>
+                    <th>燃气锅炉（100千瓦时）</th>
+                    <th>电加热（100千瓦时）</th>
+                    <th>热泵COP 3（100千瓦时）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>煤电为主（如波兰、印度部分地区）</td>
+                    <td>0.8–1.0千克/千瓦时</td>
+                    <td>21千克</td>
+                    <td>80–100千克</td>
+                    <td>27–33千克</td>
+                </tr>
+                <tr>
+                    <td>混合型（美国平均、英国2024）</td>
+                    <td>0.3–0.4千克/千瓦时</td>
+                    <td>21千克</td>
+                    <td>30–40千克</td>
+                    <td>10–13千克</td>
+                </tr>
+                <tr>
+                    <td>核电为主（法国、瑞典）</td>
+                    <td>0.05–0.1千克/千瓦时</td>
+                    <td>21千克</td>
+                    <td>5–10千克</td>
+                    <td>1.7–3.3千克</td>
+                </tr>
+                <tr>
+                    <td>可再生能源为主（挪威、冰岛）</td>
+                    <td>0.01–0.03千克/千瓦时</td>
+                    <td>21千克</td>
+                    <td>1–3千克</td>
+                    <td>0.3–1.0千克</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>关键要点：在任何比约0.7千克CO₂/千瓦时更清洁的电网上，热泵在碳排放上优于燃气锅炉。大多数发达国家已经远低于这一阈值，随着电网脱碳，差距将进一步扩大。</p>
+
+        <h2>15年生命周期成本对比</h2>
+
+        <p>初始成本只是一部分。热泵安装成本更高但运行成本更低。对于使用15,000千瓦时热量的美国家庭，15年期间：</p>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>供暖系统</th>
+                    <th>初始成本</th>
+                    <th>年度运行成本</th>
+                    <th>15年总成本</th>
+                    <th>15年CO₂排放</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>天然气锅炉</td>
+                    <td>$4,500</td>
+                    <td>$1,000</td>
+                    <td>$19,500</td>
+                    <td>47吨</td>
+                </tr>
+                <tr>
+                    <td>电加热</td>
+                    <td>$2,000</td>
+                    <td>$2,000</td>
+                    <td>$32,000</td>
+                    <td>29吨</td>
+                </tr>
+                <tr>
+                    <td>空气源热泵</td>
+                    <td>$12,000</td>
+                    <td>$650</td>
+                    <td>$21,750</td>
+                    <td>9.7吨</td>
+                </tr>
+                <tr>
+                    <td>地源热泵</td>
+                    <td>$22,000</td>
+                    <td>$500</td>
+                    <td>$29,500</td>
+                    <td>7.4吨</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>空气源热泵在约12年后总成本与燃气锅炉持平——且生命周期内排放减少80%。加上政府补贴（如美国IRA税收抵免最高$2,000或英国锅炉升级计划£7,500），回收期降至5–8年。</p>
+
+        <h2>隔热：最经济的脱碳策略</h2>
+
+        <p>在升级供暖系统之前，先减少需求。隔热是减少供暖排放最具成本效益的方式，因为它减少了家庭所需的总能源量，无论使用何种供暖技术。</p>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>隔热措施</th>
+                    <th>热量损失减少</th>
+                    <th>典型成本</th>
+                    <th>回收期</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>阁楼隔热（270毫米）</td>
+                    <td>25%</td>
+                    <td>$300–800</td>
+                    <td>1–3年</td>
+                </tr>
+                <tr>
+                    <td>空心墙隔热</td>
+                    <td>20–35%</td>
+                    <td>$500–1,500</td>
+                    <td>2–5年</td>
+                </tr>
+                <tr>
+                    <td>防风密封（门窗）</td>
+                    <td>5–10%</td>
+                    <td>$100–300</td>
+                    <td>不到1年</td>
+                </tr>
+                <tr>
+                    <td>地板隔热</td>
+                    <td>5–10%</td>
+                    <td>$500–1,500</td>
+                    <td>3–7年</td>
+                </tr>
+                <tr>
+                    <td>双层或三层玻璃</td>
+                    <td>10–20%</td>
+                    <td>$5,000–15,000</td>
+                    <td>10–20年</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>一个隔热良好的家庭保持温暖所需的能源减少30–50%。良好的隔热与热泵结合，可比隔热差的燃气锅炉家庭减少高达90%的供暖CO₂。</p>
+
+        <h2>做出改变：需要考虑什么</h2>
+
+        <ul>
+            <li><strong>检查您的电网：</strong>查找您所在地区的电力碳强度。如果低于0.5千克CO₂/千瓦时，热泵几乎肯定比燃气更低碳。</li>
+            <li><strong>先隔热：</strong>花在隔热上的每一美元都减少了所需供暖系统的大小（和成本）。</li>
+            <li><strong>考虑混合系统：</strong>在非常寒冷的气候中，热泵搭配燃气备用系统用于最冷的日子，可减少60–70%的排放同时避免过度配置。</li>
+            <li><strong>查看激励政策：</strong>许多国家为热泵安装提供税收抵免、补贴或低息贷款。这些可覆盖30–50%的初始成本。</li>
+            <li><strong>长远考虑：</strong>电网电力每年都在变清洁。今天安装的热泵在2030年的CO₂排放将低于2026年，无需任何改变。</li>
+        </ul>
+
+        <div class="faq">
+            <h2>常见问题</h2>
+
+            <div class="faq-item">
+                <h3>热泵在寒冷气候中能工作吗？</h3>
+                <p>是的。现代寒冷气候空气源热泵在低至-15°C（5°F）下仍能高效运行，在-25°C下仍可提取热量，尽管在这些温度下COP降至约1.5–2.0。挪威是欧洲最冷的国家之一，却是世界上热泵采用率最高的国家之一——超过60%的家庭使用热泵。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>热泵比燃气锅炉运行成本更低吗？</h3>
+                <p>在大多数地区，是的。以COP 3.0和电力$0.14/千瓦时计算，热泵每千瓦时热量成本约$0.047，而燃气约$0.06–0.08/千瓦时（$1.00/热姆）。在气价高或电价低的地区，节省更大。15年内，空气源热泵通常比更换为另一台燃气锅炉节省$2,000–5,000。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>我能保留现有散热器使用热泵吗？</h3>
+                <p>在许多情况下可以——但您可能需要将一些散热器升级到更大尺寸。热泵在较低流速温度（35–45°C vs 燃气锅炉60–70°C）下工作最佳，因此更大的散热器或地暖有助于在较低温度下分配相同的热量。合格的安装人员将评估您的现有系统并建议任何更改。</p>
+            </div>
+        </div>
+
+        <div class="source-note">
+            <p><strong>数据来源：</strong>IEA供暖技术报告（2024）、EPA温室气体等效计算器、美国能源部——热泵系统、Carbon Brief——热泵分析（2024）、Eurostat能源统计。</p>
+        </div>
+
+        <nav class="article-nav">
+            <a href="/zh/articles/save-energy-at-home/">← 上一篇：家庭节能</a>
+            <a href="/zh/articles/housing-carbon-footprint/">下一篇：住房碳足迹 →</a>
+        </nav>
+    </main>
+
+    <script src="/share.js"></script>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Carbon Simple.</p>
+            <div class="footer-links">
+                <a href="/zh/about/">关于</a>
+                <a href="/zh/about/#sources">数据来源</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

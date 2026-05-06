@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>住房碳足迹 — 如何计算家庭排放 — Carbon Simple</title>
+    <meta name="description" content="如何计算您的住房碳足迹，包括供暖、制冷、电力和用水的排放。包含排放因子、公式和减排建议。">
+    <meta name="keywords" content="住房碳足迹, 家庭能源排放, 供暖碳足迹, 电力排放计算器">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Mono&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="alternate" hreflang="en" href="https://carbon-simple.pages.dev/articles/housing-carbon-footprint/" />
+    <link rel="alternate" hreflang="zh" href="https://carbon-simple.pages.dev/zh/articles/housing-carbon-footprint/" />
+    <link rel="alternate" hreflang="x-default" href="https://carbon-simple.pages.dev/articles/housing-carbon-footprint/" />
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "住房碳足迹 — 如何计算家庭排放",
+        "description": "如何计算您的住房碳足迹，包括供暖、制冷、电力和用水的排放。包含排放因子、公式和减排建议。",
+        "author": {
+            "@type": "Organization",
+            "name": "Carbon Simple"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Carbon Simple",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://carbon-simple.pages.dev/favicon.ico"
+            }
+        },
+        "datePublished": "2026-03-30",
+        "dateModified": "2026-03-30",
+        "wordCount": 1000,
+        "timeRequired": "PT7M",
+        "articleSection": "计算方法",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://carbon-simple.pages.dev/zh/articles/housing-carbon-footprint/"
+        },
+        "keywords": "住房碳足迹, 家庭能源排放, 供暖碳足迹, 电力排放计算器"
+    }
+    </script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="/zh/" class="logo">Carbon Simple</a>
+            <div class="nav-links">
+                <a href="/zh/calculator/">计算器</a>
+                <a href="/zh/articles/">文章</a>
+                <a href="/zh/about/">关于</a>
+            </div>
+        </div>
+    </nav>
+
+    <script src="/language.js"></script>
+    <script src="/analytics.js"></script>
+
+    <main class="article-page">
+        <p class="article-meta">计算方法 · 更新于2026年3月 · 7分钟阅读</p>
+        <div class="social-share">
+            <button onclick="shareToTwitter('住房碳足迹 — 如何计算家庭排放', 'https://carbon-simple.pages.dev/zh/articles/housing-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                </svg>
+                分享到Twitter
+            </button>
+            <button onclick="shareToFacebook('https://carbon-simple.pages.dev/zh/articles/housing-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+                分享到Facebook
+            </button>
+            <button onclick="shareToLinkedIn('住房碳足迹 — 如何计算家庭排放', 'https://carbon-simple.pages.dev/zh/articles/housing-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                分享到LinkedIn
+            </button>
+            <button onclick="copyShareLink('https://carbon-simple.pages.dev/zh/articles/housing-carbon-footprint/')">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 21H8V7h11v14zM17 10h-7v7h7v-7zM5 13h7v7H5v-7zM5 21h7v-7H5v7zM19 3H8v7h11V3z"/>
+                </svg>
+                复制链接
+            </button>
+        </div>
+        <h1>住房碳足迹 — 如何计算家庭排放</h1>
+
+        <p><strong>快速回答：</strong>您的住房碳足迹主要取决于能源来源和效率。一个典型家庭每年排放1.5–4.0吨CO₂e，其中供暖/制冷占40–60%，电力占30–50%，用水占5–10%。使用可再生能源电网的家庭可减少70–90%的排放。</p>
+
+        <h2>为什么住房排放很重要</h2>
+
+        <p>住宅能源使用约占全球二氧化碳排放的17%。供暖、制冷、照明和电器运行都需要能源，而能源的碳强度因地区和来源而异。</p>
+
+        <h2>住房排放类别</h2>
+
+        <h3>1. 供暖和制冷</h3>
+        <p>暖通空调系统通常是家庭中最大的能源消耗者。排放取决于燃料类型、气候、隔热和系统效率。</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>供暖/制冷来源</th>
+                    <th>每千瓦时CO₂e</th>
+                    <th>年度排放（15,000千瓦时）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>天然气锅炉</td><td>0.20千克</td><td>3.0吨</td></tr>
+                <tr><td>燃油供暖</td><td>0.27千克</td><td>4.1吨</td></tr>
+                <tr><td>电加热（煤电电网）</td><td>0.90千克</td><td>13.5吨</td></tr>
+                <tr><td>电加热（平均电网）</td><td>0.45千克</td><td>6.8吨</td></tr>
+                <tr><td>热泵（平均电网）</td><td>0.15千克</td><td>2.3吨</td></tr>
+                <tr><td>热泵（可再生能源电网）</td><td>0.03千克</td><td>0.5吨</td></tr>
+            </tbody>
+        </table>
+
+        <h3>2. 电力</h3>
+        <p>您的电力排放完全取决于电网的发电方式。同样的用电量在不同国家产生截然不同的排放。</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>电网类型</th>
+                    <th>每千瓦时CO₂e</th>
+                    <th>年度排放（3,000千瓦时）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>煤电为主的电网（印度、波兰）</td><td>0.90千克</td><td>2.7吨</td></tr>
+                <tr><td>全球平均电网</td><td>0.45千克</td><td>1.4吨</td></tr>
+                <tr><td>美国平均电网</td><td>0.39千克</td><td>1.2吨</td></tr>
+                <tr><td>欧盟平均电网</td><td>0.25千克</td><td>0.75吨</td></tr>
+                <tr><td>法国（核电为主）</td><td>0.06千克</td><td>0.18吨</td></tr>
+                <tr><td>挪威（水电）</td><td>0.02千克</td><td>0.06吨</td></tr>
+            </tbody>
+        </table>
+
+        <h3>3. 用水</h3>
+        <p>热水加热和水处理贡献了较小但可测量的部分：</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>类别</th>
+                    <th>年度CO₂e（典型家庭）</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>热水加热</td><td>0.3–0.8吨</td></tr>
+                <tr><td>供水和处理</td><td>0.1–0.2吨</td></tr>
+            </tbody>
+        </table>
+
+        <h2>计算您的住房碳足迹</h2>
+
+        <p><strong>公式：</strong>年度排放 = (能源使用量（千瓦时）× 电网排放因子) + (燃料使用量 × 燃料排放因子)</p>
+
+        <h3>示例：美国家庭平均</h3>
+        <ul>
+            <li>电力：10,500千瓦时 × 0.39千克 = 4,095千克CO₂e</li>
+            <li>天然气：20,000千瓦时 × 0.20千克 = 4,000千克CO₂e</li>
+            <li><strong>总计：约8.1吨CO₂e/年</strong></li>
+            <li>人均（平均2.5人）：<strong>约3.2吨CO₂e</strong></li>
+        </ul>
+
+        <h3>示例：欧盟家庭（法国）</h3>
+        <ul>
+            <li>电力：5,000千瓦时 × 0.06千克 = 300千克CO₂e</li>
+            <li>天然气：12,000千瓦时 × 0.20千克 = 2,400千克CO₂e</li>
+            <li><strong>总计：约2.7吨CO₂e/年</strong></li>
+            <li>人均（平均2.3人）：<strong>约1.2吨CO₂e</strong></li>
+        </ul>
+
+        <h2>如何减少住房排放</h2>
+
+        <ul>
+            <li><strong>加强房屋隔热：</strong>良好的隔热可减少20–40%的供暖/制冷排放</li>
+            <li><strong>升级为热泵：</strong>效率是燃气供暖的3–4倍</li>
+            <li><strong>改用可再生电力：</strong>许多供应商提供100%可再生能源电价</li>
+            <li><strong>使用LED照明：</strong>比白炽灯节能75%</li>
+            <li><strong>将恒温器降低1°C：</strong>可节省约8%的供暖费用</li>
+            <li><strong>关闭待机电源：</strong>待机功耗可占家庭用电的5–10%</li>
+            <li><strong>用冷水洗衣服：</strong>洗衣机90%的能源用于加热水</li>
+        </ul>
+
+        <div class="faq">
+            <h2>常见问题</h2>
+
+            <div class="faq-item">
+                <h3>如何查找我的电网排放因子？</h3>
+                <p>查看您的电力供应商网站或搜索"电力电网排放因子[您的国家]"。我们的<a href="/zh/calculator/">计算器</a>包含大多数主要电网的因子。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>房屋大小有影响吗？</h3>
+                <p>有，但效率更重要。一个隔热良好的大房子可能比隔热差的小房子排放更低。每平方米排放量是比总量更好的指标。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>太阳能电池板值得安装吗？</h3>
+                <p>对于大多数阳光充足的房主来说，是的。一个典型的住宅太阳能系统每年可抵消1.5–3.0吨CO₂e，5–10年即可收回成本。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>房屋建设的排放呢？</h3>
+                <p>建设排放（混凝土、钢材、材料）对于一栋典型房屋大约增加30–50吨CO₂e。按预期使用寿命（50年以上）分摊，年度影响约0.6–1.0吨/年。</p>
+            </div>
+        </div>
+
+        <div class="source-note">
+            <p><strong>数据来源：</strong>IEA（2024）、EIA、Eurostat、DEFRA 2024排放因子、IPCC AR6 WGIII、EPA。</p>
+        </div>
+
+        <nav class="article-nav">
+            <a href="/zh/articles/food-carbon-footprint/">← 上一篇：食物碳足迹</a>
+            <a href="/zh/articles/consumption-carbon-footprint/">下一篇：消费碳足迹 →</a>
+        </nav>
+    </main>
+
+    <script src="/share.js"></script>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Carbon Simple.</p>
+            <div class="footer-links">
+                <a href="/zh/about/">关于</a>
+                <a href="/zh/about/#sources">数据来源</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

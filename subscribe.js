@@ -27,16 +27,17 @@
         var msg = form.parentElement.querySelector('.subscribe-msg');
 
         var email = (input.value || '').trim();
+        var i18n = window.__i18n || {};
 
         if (!email) {
-            showMsg(msg, 'Please enter your email.', 'error');
+            showMsg(msg, i18n.emailRequired || 'Please enter your email.', 'error');
             return;
         }
 
         // Prevent double submit
         if (btn.disabled) return;
         btn.disabled = true;
-        btn.textContent = 'Subscribing...';
+        btn.textContent = i18n.subscribing || 'Subscribing...';
 
         fetch(WORKER_URL + '/subscribe', {
             method: 'POST',
@@ -48,16 +49,16 @@
                 if (data.error) {
                     showMsg(msg, data.error, 'error');
                 } else {
-                    showMsg(msg, data.message || 'Subscribed successfully!', 'success');
+                    showMsg(msg, data.message || (i18n.subscribed || 'Subscribed successfully!'), 'success');
                     input.value = '';
                 }
             })
             .catch(function () {
-                showMsg(msg, 'Something went wrong. Please try again.', 'error');
+                showMsg(msg, i18n.subscribeError || 'Something went wrong. Please try again.', 'error');
             })
             .finally(function () {
                 btn.disabled = false;
-                btn.textContent = 'Subscribe';
+                btn.textContent = i18n.subscribe || 'Subscribe';
             });
     }
 
