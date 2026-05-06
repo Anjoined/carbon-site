@@ -11,8 +11,10 @@
     --accent: #2d6a4f;
     --accent-light: #d8f3dc;
     --text: #1a1a1a;
-    --text-muted: #6b7280;
+    --text-muted: #5b6370;
     --border: #e5e7eb;
+    --error: #c0392b;
+    --success: #2d6a4f;
     --max-width: 900px;
 }
 
@@ -75,6 +77,13 @@ a:hover {
     color: var(--text-muted);
     font-size: 0.9rem;
     font-weight: 500;
+    padding: 8px 4px;
+}
+
+.nav-links a[aria-current="page"],
+.nav-links a.active {
+    color: var(--accent);
+    font-weight: 600;
 }
 
 .nav-links a:hover {
@@ -167,6 +176,12 @@ a:hover {
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 28px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .feature-icon {
@@ -287,6 +302,8 @@ a:hover {
     border-collapse: collapse;
     margin: 20px 0;
     font-size: 0.9rem;
+    display: block;
+    overflow-x: auto;
 }
 
 .article-page th, .article-page td {
@@ -432,10 +449,15 @@ a:hover {
 .results {
     display: none;
     margin-top: 32px;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
 .results.show {
     display: block;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .results-box {
@@ -535,12 +557,13 @@ a:hover {
 
 .footer-links a {
     color: var(--text-muted);
+    padding: 8px 4px;
 }
 
 /* ========== Language Switcher ========== */
 .lang-switch {
     font-size: 0.85rem;
-    padding: 4px 12px;
+    padding: 8px 16px;
     border: 1px solid var(--border);
     border-radius: 4px;
     color: var(--text-muted);
@@ -566,6 +589,16 @@ a:hover {
 }
 
 /* ========== Responsive ========== */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 0 48px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 640px) {
     .nav-inner {
         flex-direction: column;
@@ -586,6 +619,82 @@ a:hover {
     .footer-inner {
         flex-direction: column;
         text-align: center;
+    }
+
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+/* ========== Dark Mode ========== */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #1a1a2e;
+        --surface: #22223a;
+        --accent: #52b788;
+        --accent-light: #1b3a2d;
+        --text: #e8e8e8;
+        --text-muted: #9ca3af;
+        --border: #33334d;
+        --error: #e74c3c;
+    }
+
+    .article-page code {
+        background: #2d2d44;
+    }
+
+    .subscribe-form input[type="email"] {
+        background: var(--bg);
+        color: var(--text);
+    }
+
+    .form-group input,
+    .form-group select {
+        background: var(--bg);
+        color: var(--text);
+    }
+
+    .social-share button {
+        background: var(--bg);
+        color: var(--text);
+    }
+}
+
+/* ========== Print ========== */
+@media print {
+    .nav,
+    .footer,
+    .social-share,
+    .subscribe,
+    .article-nav,
+    .lang-switch,
+    .back-to-top,
+    .skip-link {
+        display: none !important;
+    }
+
+    body {
+        font-size: 12pt;
+        color: #000;
+        background: #fff;
+    }
+
+    .article-page,
+    .calculator-page,
+    .about-page {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    a[href]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        color: #666;
+    }
+
+    .article-page table {
+        display: table;
     }
 }
 
@@ -726,6 +835,55 @@ a:hover {
 }
 
 .subscribe-msg-error {
-    color: #c0392b;
+    color: var(--error);
+}
+
+/* ========== Skip Link ========== */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 16px;
+    background: var(--accent);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 0 0 6px 6px;
+    z-index: 200;
+    font-weight: 600;
+}
+
+.skip-link:focus {
+    top: 0;
+    text-decoration: none;
+}
+
+/* ========== Back to Top ========== */
+.back-to-top {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 44px;
+    height: 44px;
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.back-to-top:hover {
+    background: #1b4332;
 }
 

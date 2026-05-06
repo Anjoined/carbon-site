@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Why We Built Carbon Simple — Carbon Simple</title>
     <meta name="description" content="There are hundreds of carbon calculators. Here's why we built another one — and what we do differently. Data-first, no guilt, practical actions ranked by impact.">
+    <meta property="og:title" content="Why We Built Carbon Simple">
+    <meta property="og:description" content="There are hundreds of carbon calculators. Here's why we built another one — and what we do differently. Data-first, no guilt, practical actions ranked by impact.">
+    <meta property="og:url" content="https://carbon-simple.pages.dev/blog/why-carbon-simple/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Carbon Simple">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Why We Built Carbon Simple">
+    <meta name="twitter:description" content="There are hundreds of carbon calculators. Here's why we built another one — and what we do differently. Data-first, no guilt, practical actions ranked by impact.">
+    <link rel="canonical" href="https://carbon-simple.pages.dev/blog/why-carbon-simple/">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Carbon Simple">
     <meta name="keywords" content="carbon calculator, climate action, sustainable living, carbon footprint tools">
@@ -36,6 +45,7 @@
     </script>
 </head>
 <body>
+    <a href="#main" class="skip-link">Skip to content</a>
     <nav class="nav">
         <div class="container nav-inner">
             <a href="/" class="logo">Carbon Simple</a>
@@ -47,10 +57,10 @@
         </div>
     </nav>
 
-    <script src="/language.js"></script>
-    <script src="/analytics.js"></script>
+    <script src="/language.js" defer></script>
+    <script src="/analytics.js" defer></script>
 
-    <main class="article-page">
+    <main id="main" class="article-page">
         <div class="social-share">
             <a href="https://twitter.com/intent/tweet?text=Why+We+Built+Carbon+Simple&url=https://carbon-simple.pages.dev/blog/why-carbon-simple/" target="_blank" rel="noopener" aria-label="Share on Twitter">Twitter</a>
             <a href="https://www.facebook.com/sharer/sharer.php?u=https://carbon-simple.pages.dev/blog/why-carbon-simple/" target="_blank" rel="noopener" aria-label="Share on Facebook">Facebook</a>
@@ -115,10 +125,10 @@
                 <h2>Stay Updated</h2>
                 <p>Get notified when we publish new articles and calculator updates.</p>
                 <form class="subscribe-form">
-                    <input type="email" placeholder="your@email.com" required>
+                    <input type="email" placeholder="your@email.com" aria-label="Email address" required>
                     <button type="submit">Subscribe</button>
                 </form>
-                <div class="subscribe-msg"></div>
+                <div class="subscribe-msg" aria-live="polite" role="status"></div>
                 <p class="subscribe-note">No spam. Unsubscribe anytime.</p>
             </div>
         </section>

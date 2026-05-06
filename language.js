@@ -29,6 +29,24 @@
         return link;
     }
 
+    function createBackToTop() {
+        var btn = document.createElement('button');
+        btn.className = 'back-to-top';
+        btn.setAttribute('aria-label', isZhPage() ? '回到顶部' : 'Back to top');
+        btn.textContent = '↑';
+        btn.addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 400) {
+                btn.classList.add('visible');
+            } else {
+                btn.classList.remove('visible');
+            }
+        });
+        return btn;
+    }
+
     function init() {
         var nav = document.querySelector('.nav-inner');
         if (!nav) return;
@@ -37,8 +55,10 @@
         var switcher = createSwitcher();
         nav.appendChild(switcher);
 
-        // First-visit prompt: if browser language is zh and user is on English page
-        // (only redirect if user previously chose Chinese)
+        // Inject back-to-top button
+        document.body.appendChild(createBackToTop());
+
+        // First-visit prompt: if user previously chose Chinese, redirect
         var stored = localStorage.getItem(STORAGE_KEY);
         if (stored === 'zh' && !isZhPage()) {
             window.location.href = getAlternateUrl();
